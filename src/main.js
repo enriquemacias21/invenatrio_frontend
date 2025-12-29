@@ -1,5 +1,5 @@
-const API_URL = "http://localhost:3000";
-
+//const API_URL = "http://localhost:3000";
+const API_URL = import.meta.env.VITE_API_URL;
 // --- ESTADO GLOBAL ---
 let usuariosLista = []; // Aquí guardaremos los usuarios para filtrar rápido
 let usuarioLogueado = null; // Datos del admin actual
